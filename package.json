@@ -1,0 +1,22 @@
+{
+  "name": "foobar.video",
+  "version": "1.0.0",
+  "description": "Source for www.foobar.video",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmd909/foobar.video.git"
+  },
+  "author": "Tim Doerzbacher <tim@tim-doerzbacher.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timmd909/foobar.video/issues"
+  },
+  "homepage": "https://github.com/timmd909/foobar.video#readme",
+  "dependencies": {
+    "timstrap": "github:timmd909/timstrap"
+  }
+}
