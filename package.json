@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/timmd909/foobar.video#readme",
   "dependencies": {
+    "colors": "^1.4.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-config": "^3.0.1",
+    "node-sass": "^5.0.0",
+    "time-grunt": "^2.0.0",
     "timstrap": "github:timmd909/timstrap"
   }
 }
