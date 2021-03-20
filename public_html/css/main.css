@@ -7198,3 +7198,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-brand-blue {
   color: #5c6ae5; }
+
+#header-logo {
+  width: 100%; }
+
+.green-block {
+  background-color: #7ecc64ff;
+  border: 2pt solid black; }
