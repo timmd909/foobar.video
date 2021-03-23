@@ -95,7 +95,9 @@ $now = new \DateTime('now');
               <dd>
                 <p>
                   Yes. You'll be getting the original tapes back along with
-                  digital videos on USB thumbdrive(s).
+                  digital videos on USB thumbdrive(s). For the brief time I'll
+                  be in possession of your tapes, they'll be kept in a cool,
+                  dry place to avoid further degradation.
                 </p>
                 <p>
                   I only view the first and last minute of the capture. If you're
