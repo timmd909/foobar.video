@@ -1,4 +1,8 @@
-<!doctype html>
+<?php
+
+// require_once __DIR__ . '/../vendor/autoload.php';
+
+?><!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -113,6 +117,9 @@
 
       <section>
         <form>
+          <div>
+
+          </div>
         </form>
       </section>
 
