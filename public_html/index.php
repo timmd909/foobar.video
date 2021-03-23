@@ -17,7 +17,7 @@ $now = new \DateTime('now');
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome/all.css">
 
-    <title>Foobar.video - Save your VHS tape before they go Foobar!</title>
+    <title>Foobar.video - Save your VHS tapes before they go Foobar!</title>
   </head>
   <body>
     <div class="container">
