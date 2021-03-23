@@ -1,3 +1,7 @@
 node_modules
 config.php
 vendor/
+public_html/css/
+public_html/js/
+public_html/fontawesome/
+public_html/webfonts/

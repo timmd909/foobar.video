@@ -5,7 +5,19 @@ module.exports = {
     files: [
       {
         'public_html/css/bootstrap.css': 'node_modules/timstrap/dist/css/bootstrap.css',
-      }
+      },
+      {
+        expand: true,
+        flatten: true,
+        src: ['vendor/fortawesome/font-awesome/css/*.css'],
+        dest: 'public_html/fontawesome/',
+      },
+      {
+        expand: true,
+        flatten: true,
+        src: ['vendor/fortawesome/font-awesome/webfonts/*'],
+        dest: 'public_html/webfonts/',
+      },
     ],
   },
   js: {
