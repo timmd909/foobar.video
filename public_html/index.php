@@ -42,12 +42,15 @@
 
           <dt>How much is shipping and handling?</dt>
           <dd>
-            I'm not doing that. I'm currently only accepting business from
-            people in the Pittsburgh area. Local police stations have
-            designated areas under surveillance for doing internet business
-            safely. That's what we'll do. It's the safest possible way
-            to handoff your VHS tapes. It also avoids $50 or more in shipping
-            fees for both of us. Win-win.
+            <p>
+              I'd prefer not to do that if possible as I'm currently only
+              accepting business from people in the Pittsburgh area. My
+              suggestion would be to meet at a police station that has a
+              designated area under surveillance for doing internet
+              business safely. That's what "they" recommend, and it could
+              save $50-$80 in shipping costs (depending on the number
+              of tapes).
+            </p>
           </dd>
 
           <dt>Are customers charged for unrecoverable VHS tapes?</dt>
@@ -59,15 +62,21 @@
 
           <dt>Are my memories safe with you?</dt>
           <dd>
-            Probably. I only look at the first and last minute to verify that
-            the recording went successfully. If you have videos from the 80s
-            of you dancing and lip syncing along to Michael Jackson, you need
-            not worry if it's in the middle of the tape.
+            <p>
+              Yes. You'll be getting the original tapes back along with
+              digital videos on USB thumbdrive(s).
+            </p>
+            <p>
+              I only view the first and last minute of the capture. If you're
+              worried about me seeing embarrassing videos of you dressing up
+              and dancing while lip syncing to Michael Jackson songs, you're
+              in luck (as long as it's not in the first or last minute).
+            </p>
           </dd>
 
           <dt>What is the turn around time?</dt>
           <dd>
-            Videos can usually be processed and shipped back out within
+            Videos can usually be processed and ready for pickup in about
             one week. If you have a large amount of VHS tapes (30+), you're
             probably looking at two weeks.
           </dd>
@@ -75,20 +84,40 @@
           <dt>Is there anything I can do about the shaky quality of
             early home movies?</dt>
           <dd>
-            Yes. You'll receive a verbatim copy and a stabilized
-            version. The old camcorders were painfully heavy on shoulders,
-            and arm fatigue was common. My own home movies induced a
-            seasick0like nausea before I stabilized them. Everyone
-            should be able to share that benefit.
+            <p>
+              Yes. You'll receive a verbatim copy and a stabilized
+              version. The old camcorders were painfully heavy on shoulders,
+              and arm fatigue was common. My own home movies induced a
+              seasick-like nausea before I stabilization. I'd imagine everyone
+              would like that option.
+            </p>
+            <p>
+              There the is a bit of a catch. More specificially, there are two
+              things that you'll want to be aware of:
+              <ul>
+                <li>Stabilizing the video loses information at the edge of
+                  the frame. The stabilization effectively means the outer
+                  edges of the video are sacrificed for making optimal viewing
+                  in center of the picture.</li>
+                <li>If there is a timestamp on the video, it will bounce around
+                  wildly. The amount it bounces depends on how shakey the
+                  original video is. If the original is perfectly smooth, there
+                  will be no jitter. If the original is shakey, the
+                  timestamp will be bouncing around quite a bit.</li>
+              </ul>
+            </p>
           </dd>
-
-
         </dl>
+
+      </section>
+
+      <section>
+        <form>
+        </form>
       </section>
 
     </div><!-- / .container -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
