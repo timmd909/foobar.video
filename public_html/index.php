@@ -31,41 +31,34 @@ $now = new \DateTime('now');
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-lg-4">
           <h2>
             <i class="fa fa-fw fa-flag-checkered text-info"></i>
             Mission Statement
           </h2>
-          <p>To save as many memories as possible from the ravages of time</p>
+          <p>To save as many memories as possible from the ravages of&nbsp;time</p>
         </div><!-- / .col -->
-        <div class="col-6 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 order-2 order-sm-1">
           <h2>
             <i class="fa fa-fw fa-money-bill-alt text-info"></i>
             Pricing
           </h2>
-          <p>$25 per VHS tape of any length + $25 per USB thumbdrive<br>
-            (USB drives can usually store between 20 to 30 videos)</p>
-          <p>Bulk discounts are available for customers with more than 20 tapes</p>
+          <p>$25 per VHS tape of any length + $25 per USB&nbsp;thumbdrive<br>
+            (USB drives can usually store between 20 to 30&nbsp;videos)</p>
+          <p>Bulk discounts are available for customers with more than 20&nbsp;tapes</p>
         </div><!-- / .col -->
-        <div class="col-6 col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 order-2 order-sm-1">
+          <h2>
+            <i class="fa fa-fw fa-user text-info"></i>
+            Contact Info
+          </h2>
 
-          <div class="alert alert-info">
-            <h2>
-              Contact Info
-            </h2>
-
-            <dl>
-              <dt>Email</dt>
-              <dd><a href="mailto: <?= $emailAddress ?>"><?= $emailAddress ?> <i class="fa fa-fw fa-envelope text-info"></i></a></dd>
-            </dl>
-
-            <dl>
-              <dt>Phone Number</dt>
-              <dd><a href="tel: 1+<?= $phoneNumber ?>"><?= $phoneNumber ?> <i class="fa fa-fw fa-phone text-info"></i></a></dd>
-            </dl>
-          </div>
-
+          <p class="ml-2">
+            <a title="Email address" class="d-block" href="mailto: <?= $emailAddress ?>"><i class="fa fa-fw fa-envelope"></i> <?= $emailAddress ?></a>
+            <a title="Phone number" class="d-block" href="tel: 1+<?= $phoneNumber ?>"><i class="fa fa-fw fa-phone"></i> <?= $phoneNumber ?></a>
+          </p>
         </div><!-- / .col -->
+
       </div><!-- / .row -->
 
       <div class="row">
