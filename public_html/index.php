@@ -23,20 +23,26 @@ $now = new \DateTime('now');
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <header>
+          <header class="text-center mb-4">
             <img src="img/header-logo.svg" alt="Foobar Video Logo" id="header-logo">
-            <h1>Foobar.Video</h1>
+            <h1>Welcome to Foobar.Video!</h1>
             <p>Save your precious home videos before they go all foobar</p>
           </header>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-md-4">
-          <h2 class="border-bottom">Mission Statement</h2>
+          <h2>
+            <i class="fa fa-fw fa-flag-checkered text-info"></i>
+            Mission Statement
+          </h2>
           <p>To save as many memories as possible from the ravages of time</p>
         </div><!-- / .col -->
         <div class="col-6 col-md-4">
-          <h2 class="border-bottom">Pricing</h2>
+          <h2>
+            <i class="fa fa-fw fa-money-bill-alt text-info"></i>
+            Pricing
+          </h2>
           <p>$25 per VHS tape of any length + $25 per USB thumbdrive<br>
             (USB drives can usually store between 20 to 30 videos)</p>
           <p>Bulk discounts are available for customers with more than 20 tapes</p>
@@ -44,16 +50,18 @@ $now = new \DateTime('now');
         <div class="col-6 col-md-4">
 
           <div class="alert alert-info">
-            <h2>Contact Info</h2>
+            <h2>
+              Contact Info
+            </h2>
 
             <dl>
               <dt>Email</dt>
-              <dd><a href="mailto: <?= $emailAddress ?>"><?= $emailAddress ?></a></dd>
+              <dd><a href="mailto: <?= $emailAddress ?>"><?= $emailAddress ?> <i class="fa fa-fw fa-envelope text-info"></i></a></dd>
             </dl>
 
             <dl>
               <dt>Phone Number</dt>
-              <dd><a href="tel: 1+<?= $phoneNumber ?>"><?= $phoneNumber ?></a></dd>
+              <dd><a href="tel: 1+<?= $phoneNumber ?>"><?= $phoneNumber ?> <i class="fa fa-fw fa-phone text-info"></i></a></dd>
             </dl>
           </div>
 
@@ -63,7 +71,10 @@ $now = new \DateTime('now');
       <div class="row">
         <div class="col-12">
           <section>
-            <h2>Frequently Asked Questions</h2>
+            <h2>
+              <i class="fa fa-question-circle text-info"></i>
+              Frequently Asked Questions
+            </h2>
             <dl>
               <dt>How are my memories returned?</dt>
               <dd>
@@ -145,8 +156,6 @@ $now = new \DateTime('now');
           </section>
         </div><!-- the left side -->
       </div><!-- / .row -->
-
-      <hr>
 
       <div class="alert alert-info">
         <i class="fa fa-info-circle"></i>
